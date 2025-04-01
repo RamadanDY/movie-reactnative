@@ -1,10 +1,17 @@
 import { Link } from "expo-router";
-import { Text, View } from "react-native";
+import { images } from "@/constants/images";
+import { icons } from "@/constants/icons";
+import { Text, View, Image, ScrollView } from "react-native";
 
 export default function Index() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-5xl color-dark-200">Welcome</Text>
+    <View className="flex-1 bg-primary">
+      <Image source={images.bg} className="absolute w-full z-0" />
+      {/* the scrollview makes the content fit inside the screen no mater the size by making the screen scrollable  */}
+      <ScrollView className="flex-1 px-5  ">
+        <Image source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto" />
+      </ScrollView>
+      {/* <Text className="text-7xl color-white">helloS</Text> */}
     </View>
   );
 }
