@@ -1,7 +1,7 @@
 # JUST MMY NOTES ON API LINKING 
 https://developer.themoviedb.org/reference/discover-movie
 this is where we get the api code from and how the data in a object form looks like
-
+2. COPY THE TEST CODE AMD PUT IN INSIDE A API.TS FILE AND ALSO COPY THE HEADER KEY AND INSERT IT IN THE .ENV FILE 
 
 
 
