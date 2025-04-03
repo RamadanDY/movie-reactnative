@@ -1,4 +1,26 @@
+# JUST MMY NOTES ON API LINKING 
+https://developer.themoviedb.org/reference/discover-movie
+this is where we get the api code from and how the data in a object form looks like
+
+
+
+
+
+
+
+
+
+
+
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+API Read Access Token
+
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNDAwODZkZDVkZTk2MGM4N2JhMjQxZWE4NmIzNTZmNCIsIm5iZiI6MTc0MzcxNzc5OS40MDUsInN1YiI6IjY3ZWYwNWE3YTkzMTNjNzE4NGFjZThmYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FGABK8_U7XPtakQz4jeURMFyhCR3O9P8dvRKDBPgWYw
+
+
+API Key
+
+e40086dd5de960c87ba241ea86b356f4
 
 # dependencies
 node_modules/

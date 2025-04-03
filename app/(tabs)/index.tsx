@@ -2,6 +2,7 @@ import { Link } from "expo-router";
 import { images } from "@/constants/images";
 import { icons } from "@/constants/icons";
 import { Text, View, Image, ScrollView } from "react-native";
+import SearchBar from "@/components/SearchBar";
 
 export default function Index() {
   return (
@@ -15,6 +16,10 @@ export default function Index() {
         contentContainerStyle={{ minHeight: "100%", padding: 10 }}
       >
         <Image source={icons.logo} className="w-12 h-10 mt-20 mb-5 mx-auto" />
+
+        <View className="flex-1 mt-5">
+          <SearchBar />
+        </View>
       </ScrollView>
       {/* <Text className="text-7xl color-white">helloS</Text> */}
     </View>
