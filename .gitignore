@@ -2,6 +2,28 @@
 https://developer.themoviedb.org/reference/discover-movie
 this is where we get the api code from and how the data in a object form looks like
 2. COPY THE TEST CODE AMD PUT IN INSIDE A API.TS FILE AND ALSO COPY THE HEADER KEY AND INSERT IT IN THE .ENV FILE 
+3 WE CRAETE A CONST AND WITHE THE BASE URL ITS ALWAYS IN THE FIRST CONST URL LINK AND IN THIS CASE THOS IS IT https://api.themoviedb.org/3/
+export const TMDB_CONFIG = {}
+
+This exports the configuration object so it can be used elsewhere in your code.
+
+BASE_URL: "https://api.themoviedb.org/3"
+
+This is the base URL for all TMDB API endpoints.
+
+API_KEY: process.env.EXPO_PUBLIC_API_KEY
+
+Stores the API key from environment variables.
+
+Problem: If you're using React Native with Expo, process.env won't work directly. Instead, you should use Expo Constants.
+
+Headers: {}
+
+The Headers object defines headers required for API authentication.
+
+accept: "application/json" → Ensures the response is returned in JSON format.
+
+Authorization: Bearer <token> → Uses Bearer Token authentication.
 
 
 
